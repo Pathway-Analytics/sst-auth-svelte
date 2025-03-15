@@ -1,0 +1,12 @@
+node_modules
+.env
+dist
+
+# sst
+.sst
+.secrets*
+.scripts
+
+# local certificates
+*.pem
+.pub

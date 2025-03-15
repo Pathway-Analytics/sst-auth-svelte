@@ -1,0 +1,17 @@
+{
+  "name": "@sst-auth-svelte/functions",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.758.0",
+    "@openauthjs/openauth": "^0.4.0",
+    "hono": "^4.7.2",
+    "valibot": "1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8",
+    "@types/node": "^22.13.9",
+    "sst": "3.9.37",
+    "tsx": "^4.x.x"
+  }
+}

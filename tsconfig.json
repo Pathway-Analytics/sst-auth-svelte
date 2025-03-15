@@ -1,0 +1,18 @@
+{
+    "extends": "@tsconfig/node22/tsconfig.json",
+    "compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "target": "ES2022",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "types": ["sst"],
+    },
+    "include": ["./infra/**/*.ts", "./sst.config.ts", "packages/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
