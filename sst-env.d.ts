@@ -5,10 +5,6 @@
 
 declare module "sst" {
   export interface Resource {
-    "AuthServer": {
-      "type": "sst.aws.Auth"
-      "url": string
-    }
     "EmailServer": {
       "configSet": string
       "sender": string

@@ -4,7 +4,7 @@ x509_extensions = v3_req
 prompt = no
 
 [req_distinguished_name]
-CN = local.pathwayanalytics.com
+CN = local.yourdomain.com
 
 [v3_req]
 keyUsage = digitalSignature, keyEncipherment  # Updated for TLS compatibility
@@ -12,4 +12,4 @@ extendedKeyUsage = serverAuth
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = local.pathwayanalytics.com
+DNS.1 = local.yourdomain.com
