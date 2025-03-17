@@ -10,3 +10,7 @@ dist
 # local certificates
 *.pem
 .pub
+
+# local build artifacts
+.DS_Store
+*.log

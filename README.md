@@ -7,7 +7,7 @@ A minimal SST v3 application with SvelteKit, DynamoDB, and OpenAuth for authenti
 - **Frontend**: SvelteKit with TypeScript
 - **Backend**: SST v3 monorepo
 - **Database**: DynamoDB for user attributes (email, name, id)
-- **Auth**: OpenAuth with Google, GitHub, and Code issuers
+- **Auth**: OpenAuth with Google, GitHub, Password and Code issuers
 
 ## Setup ##
 
@@ -55,4 +55,4 @@ Update function getUser in /packages/functions/src/auth/auth.ts to connect to yo
 
 - Fix UsersTable as Storage for AuthServer
 - Offer option to register known users only
-- Test for regions other than use-east-1
+- Test for regions other than us-east-1
